@@ -80,8 +80,8 @@ def train(args, train_loader, val_loader, model, loss_func, optimizer, scheduler
 
 
 def main(args):
-    source = 'Cav1.2'  # Cav1.2/hERG/Nav1.5
-    datas = 'cav'  # cav/herg/nav
+    source = 'hERG'  # Cav1.2/hERG/Nav1.5
+    datas = 'herg'  # cav/herg/nav
     dataspathmulu='./data/' + source + '/'
     data_path = './data/' + source + '/data_' + datas + '_dev.csv'
     data_path_test = './data/' + source + '/eval_set_' + datas + '_60.csv'
