@@ -18,5 +18,5 @@ def parse():
     parser.add_argument('--p', type=float, default=0.5, help="dropout probability")
     parser.add_argument('--lr', type=float, default=0.0001,  help='learning rate')
     parser.add_argument('--weight_decay', type=float, default=1e-4)
-    parser.add_argument('--batch_size', type=float, default=256)
+    parser.add_argument('--batch_size', type=float, default=1024)#cav 64 nav 256 herg 1024
     return parser.parse_args()
