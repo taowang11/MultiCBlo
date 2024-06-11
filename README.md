@@ -1,4 +1,4 @@
-# Advancing Cardiotoxicity Prediction of Compounds with Progressive Multimodal Fusion Technology
+# MultiCBlo: Enhancing Compound-Induced Block Predictions in Protein Channels with Advanced Multimodal Learning
 
 
 ## Requirements
